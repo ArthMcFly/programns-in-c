@@ -87,44 +87,44 @@
 
 					break;
 					case 2:
-							system("clear");
-							printf("Digite o primeiro lado:\n");
-							scanf("%f",&l1);
-							printf("Digite o segundo lado:\n");
-							scanf("%f",&l2);
-							printf("Digite o terceiro lado:\n");
-							scanf("%f",&l3);
-							printf("Digite o quarto lado:\n");
-							scanf("%f",&l4);
-							result = l1 + l2 + l3 + l4;
-							system("clear");
-							printf("O resultado é: %.2f\n", result);
+						system("clear");
+						printf("Digite o primeiro lado:\n");
+						scanf("%f",&l1);
+						printf("Digite o segundo lado:\n");
+						scanf("%f",&l2);
+						printf("Digite o terceiro lado:\n");
+						scanf("%f",&l3);
+						printf("Digite o quarto lado:\n");
+						scanf("%f",&l4);
+						result = l1 + l2 + l3 + l4;
+						system("clear");
+						printf("O resultado é: %.2f\n", result);
 					break;
 					case 3:
-							system("clear");
-							printf("Digite o primeiro lado:\n");
-							scanf("%f",&l1);
-							printf("Digite o segundo lado:\n");
-							scanf("%f",&l2);
-							printf("Digite o terceiro lado:\n");
-							scanf("%f",&l3);
-							printf("Digite o quarto lado:\n");
-							scanf("%f",&l4);
-							result = l1 + l2 + l3 + l4;
-							system("clear");
-							printf("O resultado é: %.2f\n", result);
+						system("clear");
+						printf("Digite o primeiro lado:\n");
+						scanf("%f",&l1);
+						printf("Digite o segundo lado:\n");
+						scanf("%f",&l2);
+						printf("Digite o terceiro lado:\n");	
+						scanf("%f",&l3);
+						printf("Digite o quarto lado:\n");
+						scanf("%f",&l4);
+						result = l1 + l2 + l3 + l4;
+						system("clear");
+						printf("O resultado é: %.2f\n", result);
 					break;
 					case 4:
-							system("clear");
-							printf("Digite o raio:\n");
-							scanf("%f",&r);
-							result = 2 * PI * r;
-							system("clear");
-							printf("O resultado é: %.2f\n", result);
+						system("clear");
+						printf("Digite o raio:\n");
+						scanf("%f",&r);
+						result = 2 * PI * r;
+						system("clear");
+						printf("O resultado é: %.2f\n", result);
 					break;
 					default:
-							system("clear");
-							printf("Parâmetro inválido\n");
+						system("clear");
+						printf("Parâmetro inválido\n");
 				}
 			}else if(choice != 'A' || choice != 'a' || choice != 'P' || choice != 'p'){
 						system("clear");
