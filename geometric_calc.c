@@ -71,8 +71,8 @@
 						system("clear");
 						printf("Qual é a figura geométrica:\n [1]Triângulo\n [2]Quadrilátero\n [3]Trapézio\n [4]Circulo\n");
 						scanf("%d",&figure);
-						//seleção da fórmula
 				switch(figure){
+					//seleção da fórmula
 					case 1:
 						system("clear");
 						printf("Digite o primeiro lado:\n");
@@ -82,7 +82,7 @@
 						printf("Digite o terceiro lado:\n");
 						scanf("%f",&l3);
 						result = l1 + l2 + l3;
-						system("clea/r");
+						system("clear");
 						printf("O resultado é: %.2f\n", result);
 
 					break;
@@ -132,4 +132,3 @@
 				}
 		return 0;
 	}
-
